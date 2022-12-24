@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(0, 0, 255, 0.088);
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.grid {
+  gap: 24px;
+  width: 1152px;
+  padding: 21px;
+  display: grid;
+  margin: 0 auto;
+  font-weight: 700;
+  margin-top: 100px;
+  margin-left: 8%;
+  position: absolute;
+  border-radius: 15px;
+  background-color: #f7d5d5;
+  grid-template-rows: 182px 158px;
+  grid-template-columns: repeat(6, 165px);
+  box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.25);
+}
+
+.one {
+  background: #755cde;
+  grid-row: 1 / 3;
+  grid-column: 1 / 3;
+}
+.two {
+  background: #f6a560;
+}
+
+.three {
+  background: #f39e9e;
+}
+
+.four {
+  background: #61c4b7;
+  grid-column: span 2;
+}
+
+.five {
+  background: #eb7565;
+  grid-column: span 2;
+}
+
+.six {
+  background: #552049;
+  grid-column: span 2;
+}
+.grid-boxs {
+  border-radius: 10px;
+}
+.grid-images {
+  display: flex;
+  margin: 0 auto;
+  padding: 20px;
+}
+.img-one {
+  margin-left: 180px;
+}
+.img-two {
+  margin-left: 60px;
+}
+.img-three {
+  margin-left: 60px;
+}
+.img-four {
+  margin-left: 145px;
+}
+.img-five {
+  margin-left: 180px;
+}
+.img-six {
+  margin-left: 180px;
+}
+.grid h2 {
+  color: white;
+}
+.child1 {
+  padding: 0 20px;
+  margin-top: 80px;
+}
+.child2 {
+  padding: 0 20px;
+  margin-top: 30px;
+}
+.child3 {
+  padding: 0 20px;
+  margin-top: 30px;
+}
+.child4 {
+  padding: 0 20px;
+  margin-top: 30px;
+}
+.child5 {
+  padding: 0 20px;
+  margin-top: 0;
+}
+.child6 {
+  padding: 0 20px;
+  margin-top: 0;
+}
